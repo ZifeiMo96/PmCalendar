@@ -1,0 +1,7 @@
+W:\C#src\PmCalendarSrc\PmCalendar\PmService\bin\Debug\PmService.exe.config
+W:\C#src\PmCalendarSrc\PmCalendar\PmService\bin\Debug\PmService.exe
+W:\C#src\PmCalendarSrc\PmCalendar\PmService\bin\Debug\PmService.pdb
+W:\C#src\PmCalendarSrc\PmCalendar\PmService\obj\Debug\PmService.csprojAssemblyReference.cache
+W:\C#src\PmCalendarSrc\PmCalendar\PmService\obj\Debug\PmService.csproj.CoreCompileInputs.cache
+W:\C#src\PmCalendarSrc\PmCalendar\PmService\obj\Debug\PmService.exe
+W:\C#src\PmCalendarSrc\PmCalendar\PmService\obj\Debug\PmService.pdb

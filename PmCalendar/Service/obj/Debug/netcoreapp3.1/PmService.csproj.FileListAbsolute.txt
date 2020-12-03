@@ -1,0 +1,13 @@
+W:\C#src\PmCalendarSrc\PmCalendar\Service\bin\Debug\netcoreapp3.1\PmService.exe
+W:\C#src\PmCalendarSrc\PmCalendar\Service\bin\Debug\netcoreapp3.1\PmService.deps.json
+W:\C#src\PmCalendarSrc\PmCalendar\Service\bin\Debug\netcoreapp3.1\PmService.runtimeconfig.json
+W:\C#src\PmCalendarSrc\PmCalendar\Service\bin\Debug\netcoreapp3.1\PmService.runtimeconfig.dev.json
+W:\C#src\PmCalendarSrc\PmCalendar\Service\bin\Debug\netcoreapp3.1\PmService.dll
+W:\C#src\PmCalendarSrc\PmCalendar\Service\bin\Debug\netcoreapp3.1\PmService.pdb
+W:\C#src\PmCalendarSrc\PmCalendar\Service\obj\Debug\netcoreapp3.1\PmService.csprojAssemblyReference.cache
+W:\C#src\PmCalendarSrc\PmCalendar\Service\obj\Debug\netcoreapp3.1\PmService.AssemblyInfoInputs.cache
+W:\C#src\PmCalendarSrc\PmCalendar\Service\obj\Debug\netcoreapp3.1\PmService.AssemblyInfo.cs
+W:\C#src\PmCalendarSrc\PmCalendar\Service\obj\Debug\netcoreapp3.1\PmService.csproj.CoreCompileInputs.cache
+W:\C#src\PmCalendarSrc\PmCalendar\Service\obj\Debug\netcoreapp3.1\PmService.dll
+W:\C#src\PmCalendarSrc\PmCalendar\Service\obj\Debug\netcoreapp3.1\PmService.pdb
+W:\C#src\PmCalendarSrc\PmCalendar\Service\obj\Debug\netcoreapp3.1\PmService.genruntimeconfig.cache

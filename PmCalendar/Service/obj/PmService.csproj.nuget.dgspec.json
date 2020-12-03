@@ -1,0 +1,60 @@
+{
+  "format": 1,
+  "restore": {
+    "W:\\C#src\\PmCalendarSrc\\PmCalendar\\Service\\PmService.csproj": {}
+  },
+  "projects": {
+    "W:\\C#src\\PmCalendarSrc\\PmCalendar\\Service\\PmService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "W:\\C#src\\PmCalendarSrc\\PmCalendar\\Service\\PmService.csproj",
+        "projectName": "PmService",
+        "projectPath": "W:\\C#src\\PmCalendarSrc\\PmCalendar\\Service\\PmService.csproj",
+        "packagesPath": "C:\\Users\\莫子非\\.nuget\\packages\\",
+        "outputPath": "W:\\C#src\\PmCalendarSrc\\PmCalendar\\Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\莫子非\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

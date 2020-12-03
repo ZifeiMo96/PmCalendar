@@ -1,0 +1,13 @@
+W:\C#src\PmCalendarSrc\PmCalendar\PmCalendar\bin\Debug\PmCalendar.exe.config
+W:\C#src\PmCalendarSrc\PmCalendar\PmCalendar\bin\Debug\PmCalendar.exe
+W:\C#src\PmCalendarSrc\PmCalendar\PmCalendar\bin\Debug\PmCalendar.pdb
+W:\C#src\PmCalendarSrc\PmCalendar\PmCalendar\bin\Debug\PmService.exe
+W:\C#src\PmCalendarSrc\PmCalendar\PmCalendar\bin\Debug\PmService.pdb
+W:\C#src\PmCalendarSrc\PmCalendar\PmCalendar\bin\Debug\PmService.exe.config
+W:\C#src\PmCalendarSrc\PmCalendar\PmCalendar\obj\Debug\PmCalendar.csprojAssemblyReference.cache
+W:\C#src\PmCalendarSrc\PmCalendar\PmCalendar\obj\Debug\PmCalendar.Properties.Resources.resources
+W:\C#src\PmCalendarSrc\PmCalendar\PmCalendar\obj\Debug\PmCalendar.csproj.GenerateResource.cache
+W:\C#src\PmCalendarSrc\PmCalendar\PmCalendar\obj\Debug\PmCalendar.csproj.CoreCompileInputs.cache
+W:\C#src\PmCalendarSrc\PmCalendar\PmCalendar\obj\Debug\PmCalendar.csproj.CopyComplete
+W:\C#src\PmCalendarSrc\PmCalendar\PmCalendar\obj\Debug\PmCalendar.exe
+W:\C#src\PmCalendarSrc\PmCalendar\PmCalendar\obj\Debug\PmCalendar.pdb
