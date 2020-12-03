@@ -4,7 +4,7 @@ using System.Text;
 
 namespace PmService
 {
-    public class PmDate
+    public class PmData
     {
         /// <summary>
         /// 数据的ID
