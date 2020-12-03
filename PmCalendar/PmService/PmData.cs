@@ -6,6 +6,7 @@ namespace PmService
 {
     public class PmData
     {
+
         /// <summary>
         /// 数据的ID
         /// </summary>
@@ -24,12 +25,12 @@ namespace PmService
         /// <summary>
         /// 压强，观测时间点对应的压强（hPa）
         /// </summary>
-        public int Pres { get; set; }
+        public double Pres { get; set; }
 
         /// <summary>
         /// /温度，观测时间点对应的温度（â„ƒ）
         /// </summary>
-        public int Temp { get; set; }
+        public double Temp { get; set; }
 
         /// <summary>
         /// 风向，1是东北风，2是西北风，3是东南风，4是静风
@@ -55,6 +56,12 @@ namespace PmService
         /// PM2.5评级
         /// </summary>
         public int level { get; set; }
+        
+        public override String ToString()
+        {
+            String str = "pid:"+Pid + " pm:" + Pm + " level:" + level;
+            return str;
+        }
 
     }
 }
