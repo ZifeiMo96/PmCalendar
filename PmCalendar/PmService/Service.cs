@@ -73,13 +73,82 @@ namespace PmService
             }
         }
 
+        public void TestDataLevel()
+        {
+            double[,] box = new double[4,5];
+            int count = dataBase.DataList.Count;
+            foreach (PmData i in dataBase.DataList)
+            {
+                box[0,i.DewpLevel]+= 1;
+                box[1, i.LwsLevel] += 1;
+                box[2, i.PresLevel] += 1;
+                box[3, i.TempLevel] += 1;
+            }
+            for (int i = 0; i < 4; i++)
+            {
+                for(int j = 0; j < 5; j++)
+                {
+                    box[i, j] /= count;
+                    Console.Write(box[i, j] + "    ");
+                }
+                Console.WriteLine();
+            }
+
+        }
+
+        public void GetDataFeatures()
+        {
+            double dewp = 0;
+            double lws = 0;
+            double pres = 0;
+            double temp = 0;
+            double cbwd = 0;
+            int count = dataBase.DataList.Count;
+            foreach (PmData i in dataBase.DataList)
+            {
+                dewp += i.Dewp;
+                lws += i.Lws;
+                pres += i.Pres;
+                temp += i.Temp;
+                cbwd += i.Cbwd;
+            }
+            dewp /= count;
+            lws /= count;
+            pres /= count;
+            temp /= count;
+            cbwd /= count;
+            Console.WriteLine("dewp平均值："+dewp);
+            Console.WriteLine("lws平均值：" + lws);
+            Console.WriteLine("pres平均值：" + pres);
+            Console.WriteLine("temp平均值：" + temp);
+            Console.WriteLine("cbwd平均值：" + cbwd);
+            double dewp2 = 0;
+            double lws2 = 0;
+            double pres2 = 0;
+            double temp2 = 0;
+            double cbwd2 = 0;
+            foreach (PmData i in dataBase.DataList)
+            {
+                dewp2 += (i.Dewp-dewp)* (i.Dewp - dewp)/ count;
+                lws2 += (i.Lws-lws)* (i.Lws - lws)/count;
+                pres2 += (i.Pres-pres)* (i.Pres - pres)/count;
+                temp2 += (i.Temp-temp)* (i.Temp - temp)/count;
+                cbwd2 += (i.Cbwd-cbwd)* (i.Cbwd - cbwd)/count;
+            }
+            Console.WriteLine("dewp方差：" + dewp2);
+            Console.WriteLine("lws方差：" + lws2);
+            Console.WriteLine("pres方差：" + pres2);
+            Console.WriteLine("temp方差：" + temp2);
+            Console.WriteLine("cbwd方差：" + cbwd2);
+        }
+
         public void CalculateLevelFrequency()
         {
             foreach (PmData i in dataBase.DataList)
             {
-                dataBase.LevelFrequency[i.level-1] += 1;
+                dataBase.LevelFrequency[i.level] += 1;
             }
-            for(int i = 0; i < 5; i++)
+            for(int i = 0; i < 6; i++)
             {
                 dataBase.LevelFrequency[i] /= dataBase.DataList.Count;
             }
@@ -89,7 +158,15 @@ namespace PmService
         {
             foreach(PmData i in dataBase.DataList)
             {
-
+                /*
+                dataBase.HourFrequency[][i.level] += 1;
+                dataBase.DateFrequency[][i.level] += 1;
+                dataBase.CbwdFrequency[][i.level] += 1;
+                dataBase.TempFrequency[][i.level] += 1;
+                dataBase.PresFrequency[][i.level] += 1;
+                dataBase.LwsFrequency[][i.level] += 1;
+                dataBase.DewpFrequency[][i.level] += 1;
+                */
             }
         }
 

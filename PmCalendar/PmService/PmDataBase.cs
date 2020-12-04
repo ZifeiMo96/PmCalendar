@@ -45,7 +45,7 @@ namespace PmService
         public PmDataBase()
         {
             DataList = new List<PmData>();
-            LevelFrequency = new double[5];
+            LevelFrequency = new double[6];
         }
 
         public void AddData(PmData data)

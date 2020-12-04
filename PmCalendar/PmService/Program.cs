@@ -13,8 +13,10 @@ namespace PmService
             Service service = new Service();
 
             service.LoadPmData("F:\\school\\商务智能\\PM2.5\\北京PM2.5浓度回归数据\\train.csv");
-            service.CalculateLevelFrequency();
-            service.PrintLevelFrequency();
+            service.TestDataLevel();
+            //service.GetDataFeatures();
+            //service.CalculateLevelFrequency();
+            //service.PrintLevelFrequency();
         }
     }
 }
