@@ -140,6 +140,14 @@ namespace PmService
         /// </summary>
         public int Cbwd { get; set; }
 
+        public int CbwdLevel
+        {
+            get
+            {
+                return Cbwd - 1;
+            }
+        }
+
         /// <summary>
         /// 日期
         /// </summary>
@@ -149,7 +157,7 @@ namespace PmService
         {
             get
             {
-                return Pdate.Day;
+                return Pdate.DayOfYear-1;
             }
         }
 
