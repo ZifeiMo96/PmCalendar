@@ -18,7 +18,7 @@ namespace PmService
         /// </summary>
         public Service()
         {
-            dataBase = new PmDataBase()
+            dataBase = new PmDataBase();
         }
         /// <summary>
         /// 读取训练数据
@@ -50,13 +50,49 @@ namespace PmService
                         data.level = int.Parse(values[9]);
                         dataBase.AddData(data);
                     }
-                    foreach(PmData i in DataList)
-                    {
-                        Console.WriteLine(i.ToString());
-                    }
                 }
             }
             return true;
         }
+        /// <summary>
+        /// 打印所有数据
+        /// </summary>
+        public void PrintData()
+        {
+            foreach (PmData i in dataBase.DataList)
+            {
+                Console.WriteLine(i.ToString());
+            }
+        }
+
+        public void PrintLevelFrequency()
+        {
+            foreach (double i in dataBase.LevelFrequency)
+            {
+                Console.WriteLine(i);
+            }
+        }
+
+        public void CalculateLevelFrequency()
+        {
+            foreach (PmData i in dataBase.DataList)
+            {
+                dataBase.LevelFrequency[i.level-1] += 1;
+            }
+            for(int i = 0; i < 5; i++)
+            {
+                dataBase.LevelFrequency[i] /= dataBase.DataList.Count;
+            }
+        }
+
+        public void CalculateItemFrequency()
+        {
+            foreach(PmData i in dataBase.DataList)
+            {
+
+            }
+        }
+
+        
     }
 }
