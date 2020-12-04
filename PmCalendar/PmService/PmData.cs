@@ -56,7 +56,11 @@ namespace PmService
         /// PM2.5评级
         /// </summary>
         public int level { get; set; }
-        
+
+        /// <summary>
+        /// 返回数据的信息的字符串
+        /// </summary>
+        /// <returns>数据信息的字符串</returns>
         public override String ToString()
         {
             String str = "pid:"+Pid + " pm:" + Pm + " level:" + level;

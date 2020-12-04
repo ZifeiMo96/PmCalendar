@@ -12,13 +12,13 @@ namespace PmService
         /// <summary>
         /// 存储训练数据
         /// </summary>
-        public List<PmData> DataList { get; set; }
+        private PmDataBase dataBase;
         /// <summary>
         /// 初始化函数
         /// </summary>
         public Service()
         {
-            DataList = new List<PmData>();
+            dataBase = new PmDataBase()
         }
         /// <summary>
         /// 读取训练数据
@@ -48,7 +48,7 @@ namespace PmService
                         data.Hour = int.Parse(values[7]);
                         data.Pm = int.Parse(values[8]);
                         data.level = int.Parse(values[9]);
-                        DataList.Add(data);
+                        dataBase.AddData(data);
                     }
                     foreach(PmData i in DataList)
                     {
