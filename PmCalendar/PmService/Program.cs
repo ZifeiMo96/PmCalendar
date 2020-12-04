@@ -10,15 +10,9 @@ namespace PmService
     {
         static void Main(string[] args)
         {
-            Service service = new Service();
-
-            service.LoadPmData("F:\\school\\商务智能\\PM2.5\\北京PM2.5浓度回归数据\\train.csv");
-            service.CalculateLevelFrequency();
-            service.CalculateItemFrequency();
-            service.TestItemFrequency();
-            //service.GetDataFeatures();
-            //service.CalculateLevelFrequency();
-            //service.PrintLevelFrequency();
+            String path = "F:\\school\\商务智能\\PM2.5\\北京PM2.5浓度回归数据\\train.csv";
+            Service service = new Service(path);
+            service.TestGetPmLevelByDate();
         }
     }
 }

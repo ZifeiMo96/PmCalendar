@@ -20,6 +20,13 @@ namespace PmService
         {
             dataBase = new PmDataBase();
         }
+        public Service(String path)
+        {
+            dataBase = new PmDataBase();
+            LoadPmData(path);
+            CalculateLevelFrequency();
+            CalculateItemFrequency();
+        }
         /// <summary>
         /// 读取训练数据
         /// </summary>
@@ -186,6 +193,11 @@ namespace PmService
             PrintItemFrequency(dataBase.DewpFrequency, 5);
         }
 
+        public void TestItemLevel()
+        {
+            Console.WriteLine(dataBase.GetItemFrequency(dataBase.HourFrequency, 3));
+        }
+
         private void PrintItemFrequency(double[,] box, int a)
         {
             for (int i = 0; i < a; i++)
@@ -211,6 +223,52 @@ namespace PmService
             }
         }
 
-        
+        public int GetPmLevelByDate(PmData pmdata)
+        {
+            double[] levelFrequency = new double[6];
+            double n = dataBase.GetItemFrequency(dataBase.DateFrequency, pmdata.DateLevel); ;
+            for(int i = 0; i < 6; i++)
+            {
+                levelFrequency[i] = dataBase.DateFrequency[pmdata.DateLevel, i] * dataBase.LevelFrequency[i] / n;
+            }
+            return FrequencyMax(levelFrequency);
+        }
+
+        public int GetPmLevelByDate(int date)
+        {
+            double[] levelFrequency = new double[6];
+            double n = dataBase.GetItemFrequency(dataBase.DateFrequency, date); ;
+            for (int i = 0; i < 6; i++)
+            {
+                levelFrequency[i] = dataBase.DateFrequency[date, i] * dataBase.LevelFrequency[i] / n;
+            }
+            return FrequencyMax(levelFrequency);
+        }
+
+        public void TestGetPmLevelByDate()
+        {
+            for(int i = 0; i < 365; i++)
+            {
+                Console.WriteLine(GetPmLevelByDate(i));
+            }
+        }
+
+        public int FrequencyMax(double[] box)
+        {
+            double prequency = box[0];
+            int n = 0;
+            for(int i = 0;i<box.Length;i++)
+            {
+                if (box[i] > prequency)
+                {
+                    prequency = box[i];
+                    n = i;
+                }
+            }
+            return n;
+        }
+
+
+
     }
 }

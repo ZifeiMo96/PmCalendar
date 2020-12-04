@@ -32,12 +32,12 @@ namespace PmService
         /// <param name="box">对应属性的矩阵</param>
         /// <param name="level">对应属性的评级</param>
         /// <returns></returns>
-        public double GetItemFrequency(double[][] box,int level)
+        public double GetItemFrequency(double[,] box,int level)
         {
             double frequency = 0;
             for(int i = 0; i < 5; i++)
             {
-                frequency += box[level][i] * LevelFrequency[i];
+                frequency += box[level,i] * LevelFrequency[i];
             }
             return frequency;
         }
