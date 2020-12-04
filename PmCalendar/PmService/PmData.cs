@@ -52,25 +52,21 @@ namespace PmService
         {
             get
             {
-                if (Lws < -17.80)
+                if (Lws < 5)   // 静风
                 {
                     return 0;
                 }
-                else if (Lws < -11.50)
+                else if (Lws < 50)   // 小风
                 {
                     return 1;
                 }
-                else if (Lws < 35.93)
+                else if (Lws < 100)   //中风
                 {
                     return 2;
                 }
-                else if (Lws < 65.24)
+                else   //大风
                 {
                     return 3;
-                }
-                else
-                {
-                    return 4;
                 }
             }
         }
