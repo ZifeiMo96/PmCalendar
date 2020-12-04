@@ -158,15 +158,32 @@ namespace PmService
         {
             foreach(PmData i in dataBase.DataList)
             {
-                /*
-                dataBase.HourFrequency[][i.level] += 1;
-                dataBase.DateFrequency[][i.level] += 1;
-                dataBase.CbwdFrequency[][i.level] += 1;
-                dataBase.TempFrequency[][i.level] += 1;
-                dataBase.PresFrequency[][i.level] += 1;
-                dataBase.LwsFrequency[][i.level] += 1;
-                dataBase.DewpFrequency[][i.level] += 1;
-                */
+                dataBase.HourFrequency[i.HourLevel,i.level] += 1;
+                dataBase.DateFrequency[i.DateLevel,i.level] += 1;
+                dataBase.CbwdFrequency[i.Cbwd,i.level] += 1;
+                dataBase.TempFrequency[i.TempLevel,i.level] += 1;
+                dataBase.PresFrequency[i.TempLevel,i.level] += 1;
+                dataBase.LwsFrequency[i.LwsLevel,i.level] += 1;
+                dataBase.DewpFrequency[i.DewpLevel,i.level] += 1; 
+            }
+            CalculateFrequency(dataBase.HourFrequency, 4);
+            CalculateFrequency(dataBase.DateFrequency, 366);
+            CalculateFrequency(dataBase.CbwdFrequency, 4);
+            CalculateFrequency(dataBase.TempFrequency, 5);
+            CalculateFrequency(dataBase.PresFrequency, 5);
+            CalculateFrequency(dataBase.LwsFrequency, 4);
+            CalculateFrequency(dataBase.DewpFrequency, 5);
+        }
+
+        public void CalculateFrequency(double[,]box,int a)
+        {
+            int count = dataBase.DataList.Count;
+            for (int i = 0; i < a; i++)
+            {
+                for(int j = 0; j < 6; j++)
+                {
+                    box[i, j] /= (count * dataBase.LevelFrequency[j]);
+                }
             }
         }
 
