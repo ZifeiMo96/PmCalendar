@@ -11,7 +11,7 @@ using System.Windows.Forms;
 
 namespace PmCalendar
 {
-    public partial class Page2 : Form
+    public partial class AnalysisPage : Form
     {
         [DllImport("user32.dll")]
         public static extern bool ReleaseCapture();
@@ -29,7 +29,7 @@ namespace PmCalendar
         private bool ifDewp;
         private PmService.Service service;
 
-        public Page2(PmService.Service service)
+        public AnalysisPage(PmService.Service service)
         {
             InitializeComponent();
             SetComboBox();

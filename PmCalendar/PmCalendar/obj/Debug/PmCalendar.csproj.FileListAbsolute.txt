@@ -12,4 +12,4 @@ W:\C#src\PmCalendarSrc\PmCalendar\PmCalendar\obj\Debug\PmCalendar.csproj.CopyCom
 W:\C#src\PmCalendarSrc\PmCalendar\PmCalendar\obj\Debug\PmCalendar.exe
 W:\C#src\PmCalendarSrc\PmCalendar\PmCalendar\obj\Debug\PmCalendar.pdb
 W:\C#src\PmCalendarSrc\PmCalendar\PmCalendar\obj\Debug\PmCalendar.MainPage.resources
-W:\C#src\PmCalendarSrc\PmCalendar\PmCalendar\obj\Debug\PmCalendar.Page2.resources
+W:\C#src\PmCalendarSrc\PmCalendar\PmCalendar\obj\Debug\PmCalendar.AnalysisPage.resources

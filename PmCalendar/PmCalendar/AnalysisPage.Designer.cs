@@ -1,6 +1,6 @@
 ﻿namespace PmCalendar
 {
-    partial class Page2
+    partial class AnalysisPage
     {
         /// <summary>
         /// Required designer variable.
@@ -28,13 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Page2));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AnalysisPage));
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.resultLabel = new System.Windows.Forms.Label();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
             this.TimeComboBox = new System.Windows.Forms.ComboBox();
@@ -50,8 +52,6 @@
             this.LwsCheckBox = new System.Windows.Forms.CheckBox();
             this.DewpCheckBox = new System.Windows.Forms.CheckBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.resultLabel = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
@@ -86,7 +86,7 @@
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.toolStrip1.Size = new System.Drawing.Size(453, 28);
+            this.toolStrip1.Size = new System.Drawing.Size(453, 27);
             this.toolStrip1.TabIndex = 0;
             this.toolStrip1.Text = "toolStrip1";
             this.toolStrip1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.toolStrip1_MouseDown);
@@ -97,7 +97,7 @@
             this.toolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton1.Image")));
             this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton1.Name = "toolStripButton1";
-            this.toolStripButton1.Size = new System.Drawing.Size(29, 25);
+            this.toolStripButton1.Size = new System.Drawing.Size(29, 24);
             this.toolStripButton1.Text = "关闭窗口";
             this.toolStripButton1.Click += new System.EventHandler(this.toolStripButton1_Click);
             // 
@@ -107,7 +107,7 @@
             this.toolStripButton2.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton2.Image")));
             this.toolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton2.Name = "toolStripButton2";
-            this.toolStripButton2.Size = new System.Drawing.Size(29, 25);
+            this.toolStripButton2.Size = new System.Drawing.Size(29, 24);
             this.toolStripButton2.Text = "最小化";
             this.toolStripButton2.Click += new System.EventHandler(this.toolStripButton2_Click);
             // 
@@ -142,20 +142,42 @@
             this.tableLayoutPanel3.Size = new System.Drawing.Size(105, 125);
             this.tableLayoutPanel3.TabIndex = 0;
             // 
+            // label2
+            // 
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("宋体", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label2.Location = new System.Drawing.Point(8, 5);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(89, 19);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "预测结果";
+            // 
+            // resultLabel
+            // 
+            this.resultLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.resultLabel.AutoSize = true;
+            this.resultLabel.Font = new System.Drawing.Font("宋体", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.resultLabel.Location = new System.Drawing.Point(24, 58);
+            this.resultLabel.Name = "resultLabel";
+            this.resultLabel.Size = new System.Drawing.Size(56, 38);
+            this.resultLabel.TabIndex = 1;
+            this.resultLabel.Text = "无";
+            // 
             // tableLayoutPanel4
             // 
             this.tableLayoutPanel4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.tableLayoutPanel4.BackColor = System.Drawing.Color.AliceBlue;
             this.tableLayoutPanel4.ColumnCount = 1;
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 30F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 332F));
             this.tableLayoutPanel4.Controls.Add(this.tableLayoutPanel5, 0, 1);
             this.tableLayoutPanel4.Controls.Add(this.label1, 0, 0);
-            this.tableLayoutPanel4.Location = new System.Drawing.Point(0, 7);
+            this.tableLayoutPanel4.Location = new System.Drawing.Point(3, 7);
             this.tableLayoutPanel4.Name = "tableLayoutPanel4";
             this.tableLayoutPanel4.RowCount = 2;
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel4.Size = new System.Drawing.Size(332, 126);
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(329, 126);
             this.tableLayoutPanel4.TabIndex = 1;
             // 
             // tableLayoutPanel5
@@ -228,7 +250,7 @@
             // 
             this.TempComboBox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.TempComboBox.FormattingEnabled = true;
-            this.TempComboBox.Location = new System.Drawing.Point(73, 32);
+            this.TempComboBox.Location = new System.Drawing.Point(73, 33);
             this.TempComboBox.Name = "TempComboBox";
             this.TempComboBox.Size = new System.Drawing.Size(87, 23);
             this.TempComboBox.TabIndex = 7;
@@ -244,7 +266,7 @@
             "西北风",
             "东南风",
             "静风"});
-            this.CbwdComboBox.Location = new System.Drawing.Point(73, 61);
+            this.CbwdComboBox.Location = new System.Drawing.Point(73, 63);
             this.CbwdComboBox.Name = "CbwdComboBox";
             this.CbwdComboBox.Size = new System.Drawing.Size(87, 23);
             this.CbwdComboBox.TabIndex = 8;
@@ -266,7 +288,7 @@
             // 
             this.LwsComboBox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.LwsComboBox.FormattingEnabled = true;
-            this.LwsComboBox.Location = new System.Drawing.Point(236, 32);
+            this.LwsComboBox.Location = new System.Drawing.Point(236, 33);
             this.LwsComboBox.Name = "LwsComboBox";
             this.LwsComboBox.Size = new System.Drawing.Size(87, 23);
             this.LwsComboBox.TabIndex = 10;
@@ -277,7 +299,7 @@
             // 
             this.DewpComboBox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.DewpComboBox.FormattingEnabled = true;
-            this.DewpComboBox.Location = new System.Drawing.Point(236, 61);
+            this.DewpComboBox.Location = new System.Drawing.Point(236, 63);
             this.DewpComboBox.Name = "DewpComboBox";
             this.DewpComboBox.Size = new System.Drawing.Size(87, 23);
             this.DewpComboBox.TabIndex = 11;
@@ -300,7 +322,7 @@
             // 
             this.TempCheckBox.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.TempCheckBox.AutoSize = true;
-            this.TempCheckBox.Location = new System.Drawing.Point(5, 34);
+            this.TempCheckBox.Location = new System.Drawing.Point(5, 35);
             this.TempCheckBox.Name = "TempCheckBox";
             this.TempCheckBox.Size = new System.Drawing.Size(59, 19);
             this.TempCheckBox.TabIndex = 13;
@@ -312,7 +334,7 @@
             // 
             this.CbwdCheckBox.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.CbwdCheckBox.AutoSize = true;
-            this.CbwdCheckBox.Location = new System.Drawing.Point(5, 64);
+            this.CbwdCheckBox.Location = new System.Drawing.Point(5, 65);
             this.CbwdCheckBox.Name = "CbwdCheckBox";
             this.CbwdCheckBox.Size = new System.Drawing.Size(59, 19);
             this.CbwdCheckBox.TabIndex = 14;
@@ -336,7 +358,7 @@
             // 
             this.LwsCheckBox.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.LwsCheckBox.AutoSize = true;
-            this.LwsCheckBox.Location = new System.Drawing.Point(168, 34);
+            this.LwsCheckBox.Location = new System.Drawing.Point(168, 35);
             this.LwsCheckBox.Name = "LwsCheckBox";
             this.LwsCheckBox.Size = new System.Drawing.Size(59, 19);
             this.LwsCheckBox.TabIndex = 16;
@@ -348,7 +370,7 @@
             // 
             this.DewpCheckBox.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.DewpCheckBox.AutoSize = true;
-            this.DewpCheckBox.Location = new System.Drawing.Point(168, 64);
+            this.DewpCheckBox.Location = new System.Drawing.Point(168, 65);
             this.DewpCheckBox.Name = "DewpCheckBox";
             this.DewpCheckBox.Size = new System.Drawing.Size(59, 19);
             this.DewpCheckBox.TabIndex = 17;
@@ -367,36 +389,14 @@
             this.label1.TabIndex = 1;
             this.label1.Text = " 请输入预测参数";
             // 
-            // label2
-            // 
-            this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("宋体", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label2.Location = new System.Drawing.Point(8, 5);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(89, 19);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "预测结果";
-            // 
-            // resultLabel
-            // 
-            this.resultLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.resultLabel.AutoSize = true;
-            this.resultLabel.Font = new System.Drawing.Font("宋体", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.resultLabel.Location = new System.Drawing.Point(24, 58);
-            this.resultLabel.Name = "resultLabel";
-            this.resultLabel.Size = new System.Drawing.Size(56, 38);
-            this.resultLabel.TabIndex = 1;
-            this.resultLabel.Text = "无";
-            // 
-            // Page2
+            // AnalysisPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(453, 175);
             this.Controls.Add(this.tableLayoutPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Page2";
+            this.Name = "AnalysisPage";
             this.Text = "Page2";
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();

@@ -23,7 +23,7 @@ namespace PmCalendar
         public const int SC_MOVE = 0xF010;
         public const int HTCAPTION = 0x0002;
 
-        private Page2 sonPage;
+        private AnalysisPage sonPage;
 
         private Service service;
 
@@ -45,7 +45,7 @@ namespace PmCalendar
 
         public MainPage()
         {
-            String path = "F:\\school\\商务智能\\PM2.5\\北京PM2.5浓度回归数据\\train.csv";
+            String path = "../../../train.csv";
             InitializeComponent();
             isDayButtonVisit = new bool[42];
             dayButton = new Button[42];
@@ -338,7 +338,7 @@ namespace PmCalendar
 
         private void button3_Click(object sender, EventArgs e)
         {
-            sonPage = new Page2(service);
+            sonPage = new AnalysisPage(service);
             sonPage.Show();
         }
 
