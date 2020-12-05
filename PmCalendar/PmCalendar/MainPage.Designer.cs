@@ -32,18 +32,19 @@
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.dayButton42 = new System.Windows.Forms.Button();
             this.dayButton41 = new System.Windows.Forms.Button();
-            this.dayButton35 = new System.Windows.Forms.Button();
-            this.dayButton34 = new System.Windows.Forms.Button();
             this.dayButton40 = new System.Windows.Forms.Button();
-            this.dayButton33 = new System.Windows.Forms.Button();
             this.dayButton39 = new System.Windows.Forms.Button();
+            this.dayButton38 = new System.Windows.Forms.Button();
             this.dayButton37 = new System.Windows.Forms.Button();
             this.dayButton36 = new System.Windows.Forms.Button();
-            this.dayButton32 = new System.Windows.Forms.Button();
-            this.dayButton38 = new System.Windows.Forms.Button();
-            this.dayButton31 = new System.Windows.Forms.Button();
-            this.dayButton30 = new System.Windows.Forms.Button();
             this.dayButton29 = new System.Windows.Forms.Button();
+            this.dayButton30 = new System.Windows.Forms.Button();
+            this.dayButton31 = new System.Windows.Forms.Button();
+            this.dayButton32 = new System.Windows.Forms.Button();
+            this.dayButton34 = new System.Windows.Forms.Button();
+            this.dayButton33 = new System.Windows.Forms.Button();
+            this.dayButton35 = new System.Windows.Forms.Button();
+            this.dayButton21 = new System.Windows.Forms.Button();
             this.dayButton28 = new System.Windows.Forms.Button();
             this.dayButton27 = new System.Windows.Forms.Button();
             this.dayButton26 = new System.Windows.Forms.Button();
@@ -51,29 +52,26 @@
             this.dayButton24 = new System.Windows.Forms.Button();
             this.dayButton23 = new System.Windows.Forms.Button();
             this.dayButton22 = new System.Windows.Forms.Button();
-            this.dayButton21 = new System.Windows.Forms.Button();
-            this.dayButton20 = new System.Windows.Forms.Button();
-            this.dayButton19 = new System.Windows.Forms.Button();
-            this.dayButton18 = new System.Windows.Forms.Button();
-            this.dayButton17 = new System.Windows.Forms.Button();
-            this.dayButton16 = new System.Windows.Forms.Button();
             this.dayButton15 = new System.Windows.Forms.Button();
+            this.dayButton16 = new System.Windows.Forms.Button();
+            this.dayButton17 = new System.Windows.Forms.Button();
+            this.dayButton18 = new System.Windows.Forms.Button();
+            this.dayButton19 = new System.Windows.Forms.Button();
+            this.dayButton20 = new System.Windows.Forms.Button();
             this.dayButton14 = new System.Windows.Forms.Button();
+            this.dayButton7 = new System.Windows.Forms.Button();
             this.dayButton13 = new System.Windows.Forms.Button();
             this.dayButton12 = new System.Windows.Forms.Button();
             this.dayButton11 = new System.Windows.Forms.Button();
-            this.dayButton10 = new System.Windows.Forms.Button();
             this.dayButton9 = new System.Windows.Forms.Button();
+            this.dayButton10 = new System.Windows.Forms.Button();
             this.dayButton8 = new System.Windows.Forms.Button();
-            this.dayButton7 = new System.Windows.Forms.Button();
-            this.dayButton6 = new System.Windows.Forms.Button();
-            this.dayButton5 = new System.Windows.Forms.Button();
-            this.dayButton4 = new System.Windows.Forms.Button();
-            this.dayButton3 = new System.Windows.Forms.Button();
-            this.dayButton2 = new System.Windows.Forms.Button();
             this.dayButton1 = new System.Windows.Forms.Button();
-            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.yearComboBox = new System.Windows.Forms.ComboBox();
+            this.dayButton2 = new System.Windows.Forms.Button();
+            this.dayButton3 = new System.Windows.Forms.Button();
+            this.dayButton4 = new System.Windows.Forms.Button();
+            this.dayButton5 = new System.Windows.Forms.Button();
+            this.dayButton6 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -81,22 +79,25 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
-            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.LastMonthbutton = new System.Windows.Forms.Button();
+            this.yearComboBox = new System.Windows.Forms.ComboBox();
             this.monthComboBox = new System.Windows.Forms.ComboBox();
-            this.NextMonthbutton = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.CloseButton = new System.Windows.Forms.ToolStripButton();
-            this.MinButton = new System.Windows.Forms.ToolStripButton();
+            this.NextMonthbutton = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
+            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
+            this.CloseButton = new System.Windows.Forms.ToolStripButton();
+            this.MinButton = new System.Windows.Forms.ToolStripButton();
             this.panel1 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel6 = new System.Windows.Forms.TableLayoutPanel();
             this.label10 = new System.Windows.Forms.Label();
             this.resultLabel = new System.Windows.Forms.Label();
+            this.folderBrowserDialog = new System.Windows.Forms.FolderBrowserDialog();
             this.tableLayoutPanel2.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
@@ -126,7 +127,7 @@
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 14.28531F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 10F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 14.28531F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 10F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 13F));
             this.tableLayoutPanel2.Controls.Add(this.dayButton42, 13, 13);
             this.tableLayoutPanel2.Controls.Add(this.dayButton41, 11, 13);
             this.tableLayoutPanel2.Controls.Add(this.dayButton40, 9, 13);
@@ -204,9 +205,9 @@
             this.dayButton42.FlatAppearance.BorderSize = 0;
             this.dayButton42.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.dayButton42.Font = new System.Drawing.Font("等线", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.dayButton42.Location = new System.Drawing.Point(391, 283);
+            this.dayButton42.Location = new System.Drawing.Point(386, 283);
             this.dayButton42.Name = "dayButton42";
-            this.dayButton42.Size = new System.Drawing.Size(47, 30);
+            this.dayButton42.Size = new System.Drawing.Size(46, 30);
             this.dayButton42.TabIndex = 42;
             this.dayButton42.Text = "button43";
             this.dayButton42.UseVisualStyleBackColor = false;
@@ -218,40 +219,12 @@
             this.dayButton41.FlatAppearance.BorderSize = 0;
             this.dayButton41.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.dayButton41.Font = new System.Drawing.Font("等线", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.dayButton41.Location = new System.Drawing.Point(328, 283);
+            this.dayButton41.Location = new System.Drawing.Point(324, 283);
             this.dayButton41.Name = "dayButton41";
-            this.dayButton41.Size = new System.Drawing.Size(47, 30);
+            this.dayButton41.Size = new System.Drawing.Size(46, 30);
             this.dayButton41.TabIndex = 41;
             this.dayButton41.Text = "button42";
             this.dayButton41.UseVisualStyleBackColor = false;
-            // 
-            // dayButton35
-            // 
-            this.dayButton35.BackColor = System.Drawing.Color.Moccasin;
-            this.dayButton35.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dayButton35.FlatAppearance.BorderSize = 0;
-            this.dayButton35.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.dayButton35.Font = new System.Drawing.Font("等线", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.dayButton35.Location = new System.Drawing.Point(391, 237);
-            this.dayButton35.Name = "dayButton35";
-            this.dayButton35.Size = new System.Drawing.Size(47, 30);
-            this.dayButton35.TabIndex = 40;
-            this.dayButton35.Text = "button41";
-            this.dayButton35.UseVisualStyleBackColor = false;
-            // 
-            // dayButton34
-            // 
-            this.dayButton34.BackColor = System.Drawing.Color.Moccasin;
-            this.dayButton34.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dayButton34.FlatAppearance.BorderSize = 0;
-            this.dayButton34.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.dayButton34.Font = new System.Drawing.Font("等线", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.dayButton34.Location = new System.Drawing.Point(328, 237);
-            this.dayButton34.Name = "dayButton34";
-            this.dayButton34.Size = new System.Drawing.Size(47, 30);
-            this.dayButton34.TabIndex = 39;
-            this.dayButton34.Text = "button40";
-            this.dayButton34.UseVisualStyleBackColor = false;
             // 
             // dayButton40
             // 
@@ -260,26 +233,12 @@
             this.dayButton40.FlatAppearance.BorderSize = 0;
             this.dayButton40.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.dayButton40.Font = new System.Drawing.Font("等线", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.dayButton40.Location = new System.Drawing.Point(265, 283);
+            this.dayButton40.Location = new System.Drawing.Point(262, 283);
             this.dayButton40.Name = "dayButton40";
-            this.dayButton40.Size = new System.Drawing.Size(47, 30);
+            this.dayButton40.Size = new System.Drawing.Size(46, 30);
             this.dayButton40.TabIndex = 38;
             this.dayButton40.Text = "button39";
             this.dayButton40.UseVisualStyleBackColor = false;
-            // 
-            // dayButton33
-            // 
-            this.dayButton33.BackColor = System.Drawing.Color.Moccasin;
-            this.dayButton33.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dayButton33.FlatAppearance.BorderSize = 0;
-            this.dayButton33.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.dayButton33.Font = new System.Drawing.Font("等线", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.dayButton33.Location = new System.Drawing.Point(265, 237);
-            this.dayButton33.Name = "dayButton33";
-            this.dayButton33.Size = new System.Drawing.Size(47, 30);
-            this.dayButton33.TabIndex = 37;
-            this.dayButton33.Text = "button38";
-            this.dayButton33.UseVisualStyleBackColor = false;
             // 
             // dayButton39
             // 
@@ -288,12 +247,26 @@
             this.dayButton39.FlatAppearance.BorderSize = 0;
             this.dayButton39.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.dayButton39.Font = new System.Drawing.Font("等线", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.dayButton39.Location = new System.Drawing.Point(202, 283);
+            this.dayButton39.Location = new System.Drawing.Point(200, 283);
             this.dayButton39.Name = "dayButton39";
-            this.dayButton39.Size = new System.Drawing.Size(47, 30);
+            this.dayButton39.Size = new System.Drawing.Size(46, 30);
             this.dayButton39.TabIndex = 36;
             this.dayButton39.Text = "button37";
             this.dayButton39.UseVisualStyleBackColor = false;
+            // 
+            // dayButton38
+            // 
+            this.dayButton38.BackColor = System.Drawing.Color.Moccasin;
+            this.dayButton38.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dayButton38.FlatAppearance.BorderSize = 0;
+            this.dayButton38.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.dayButton38.Font = new System.Drawing.Font("等线", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.dayButton38.Location = new System.Drawing.Point(138, 283);
+            this.dayButton38.Name = "dayButton38";
+            this.dayButton38.Size = new System.Drawing.Size(46, 30);
+            this.dayButton38.TabIndex = 32;
+            this.dayButton38.Text = "button33";
+            this.dayButton38.UseVisualStyleBackColor = false;
             // 
             // dayButton37
             // 
@@ -304,7 +277,7 @@
             this.dayButton37.Font = new System.Drawing.Font("等线", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.dayButton37.Location = new System.Drawing.Point(76, 283);
             this.dayButton37.Name = "dayButton37";
-            this.dayButton37.Size = new System.Drawing.Size(47, 30);
+            this.dayButton37.Size = new System.Drawing.Size(46, 30);
             this.dayButton37.TabIndex = 35;
             this.dayButton37.Text = "button36";
             this.dayButton37.UseVisualStyleBackColor = false;
@@ -323,62 +296,6 @@
             this.dayButton36.Text = "button35";
             this.dayButton36.UseVisualStyleBackColor = false;
             // 
-            // dayButton32
-            // 
-            this.dayButton32.BackColor = System.Drawing.Color.Moccasin;
-            this.dayButton32.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dayButton32.FlatAppearance.BorderSize = 0;
-            this.dayButton32.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.dayButton32.Font = new System.Drawing.Font("等线", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.dayButton32.Location = new System.Drawing.Point(202, 237);
-            this.dayButton32.Name = "dayButton32";
-            this.dayButton32.Size = new System.Drawing.Size(47, 30);
-            this.dayButton32.TabIndex = 33;
-            this.dayButton32.Text = "button34";
-            this.dayButton32.UseVisualStyleBackColor = false;
-            // 
-            // dayButton38
-            // 
-            this.dayButton38.BackColor = System.Drawing.Color.Moccasin;
-            this.dayButton38.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dayButton38.FlatAppearance.BorderSize = 0;
-            this.dayButton38.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.dayButton38.Font = new System.Drawing.Font("等线", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.dayButton38.Location = new System.Drawing.Point(139, 283);
-            this.dayButton38.Name = "dayButton38";
-            this.dayButton38.Size = new System.Drawing.Size(47, 30);
-            this.dayButton38.TabIndex = 32;
-            this.dayButton38.Text = "button33";
-            this.dayButton38.UseVisualStyleBackColor = false;
-            // 
-            // dayButton31
-            // 
-            this.dayButton31.BackColor = System.Drawing.Color.Moccasin;
-            this.dayButton31.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dayButton31.FlatAppearance.BorderSize = 0;
-            this.dayButton31.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.dayButton31.Font = new System.Drawing.Font("等线", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.dayButton31.Location = new System.Drawing.Point(139, 237);
-            this.dayButton31.Name = "dayButton31";
-            this.dayButton31.Size = new System.Drawing.Size(47, 30);
-            this.dayButton31.TabIndex = 31;
-            this.dayButton31.Text = "button32";
-            this.dayButton31.UseVisualStyleBackColor = false;
-            // 
-            // dayButton30
-            // 
-            this.dayButton30.BackColor = System.Drawing.Color.Moccasin;
-            this.dayButton30.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dayButton30.FlatAppearance.BorderSize = 0;
-            this.dayButton30.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.dayButton30.Font = new System.Drawing.Font("等线", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.dayButton30.Location = new System.Drawing.Point(76, 237);
-            this.dayButton30.Name = "dayButton30";
-            this.dayButton30.Size = new System.Drawing.Size(47, 30);
-            this.dayButton30.TabIndex = 30;
-            this.dayButton30.Text = "button31";
-            this.dayButton30.UseVisualStyleBackColor = false;
-            // 
             // dayButton29
             // 
             this.dayButton29.BackColor = System.Drawing.Color.Moccasin;
@@ -393,6 +310,104 @@
             this.dayButton29.Text = "button30";
             this.dayButton29.UseVisualStyleBackColor = false;
             // 
+            // dayButton30
+            // 
+            this.dayButton30.BackColor = System.Drawing.Color.Moccasin;
+            this.dayButton30.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dayButton30.FlatAppearance.BorderSize = 0;
+            this.dayButton30.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.dayButton30.Font = new System.Drawing.Font("等线", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.dayButton30.Location = new System.Drawing.Point(76, 237);
+            this.dayButton30.Name = "dayButton30";
+            this.dayButton30.Size = new System.Drawing.Size(46, 30);
+            this.dayButton30.TabIndex = 30;
+            this.dayButton30.Text = "button31";
+            this.dayButton30.UseVisualStyleBackColor = false;
+            // 
+            // dayButton31
+            // 
+            this.dayButton31.BackColor = System.Drawing.Color.Moccasin;
+            this.dayButton31.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dayButton31.FlatAppearance.BorderSize = 0;
+            this.dayButton31.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.dayButton31.Font = new System.Drawing.Font("等线", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.dayButton31.Location = new System.Drawing.Point(138, 237);
+            this.dayButton31.Name = "dayButton31";
+            this.dayButton31.Size = new System.Drawing.Size(46, 30);
+            this.dayButton31.TabIndex = 31;
+            this.dayButton31.Text = "button32";
+            this.dayButton31.UseVisualStyleBackColor = false;
+            // 
+            // dayButton32
+            // 
+            this.dayButton32.BackColor = System.Drawing.Color.Moccasin;
+            this.dayButton32.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dayButton32.FlatAppearance.BorderSize = 0;
+            this.dayButton32.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.dayButton32.Font = new System.Drawing.Font("等线", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.dayButton32.Location = new System.Drawing.Point(200, 237);
+            this.dayButton32.Name = "dayButton32";
+            this.dayButton32.Size = new System.Drawing.Size(46, 30);
+            this.dayButton32.TabIndex = 33;
+            this.dayButton32.Text = "button34";
+            this.dayButton32.UseVisualStyleBackColor = false;
+            // 
+            // dayButton34
+            // 
+            this.dayButton34.BackColor = System.Drawing.Color.Moccasin;
+            this.dayButton34.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dayButton34.FlatAppearance.BorderSize = 0;
+            this.dayButton34.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.dayButton34.Font = new System.Drawing.Font("等线", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.dayButton34.Location = new System.Drawing.Point(324, 237);
+            this.dayButton34.Name = "dayButton34";
+            this.dayButton34.Size = new System.Drawing.Size(46, 30);
+            this.dayButton34.TabIndex = 39;
+            this.dayButton34.Text = "button40";
+            this.dayButton34.UseVisualStyleBackColor = false;
+            // 
+            // dayButton33
+            // 
+            this.dayButton33.BackColor = System.Drawing.Color.Moccasin;
+            this.dayButton33.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dayButton33.FlatAppearance.BorderSize = 0;
+            this.dayButton33.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.dayButton33.Font = new System.Drawing.Font("等线", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.dayButton33.Location = new System.Drawing.Point(262, 237);
+            this.dayButton33.Name = "dayButton33";
+            this.dayButton33.Size = new System.Drawing.Size(46, 30);
+            this.dayButton33.TabIndex = 37;
+            this.dayButton33.Text = "button38";
+            this.dayButton33.UseVisualStyleBackColor = false;
+            // 
+            // dayButton35
+            // 
+            this.dayButton35.BackColor = System.Drawing.Color.Moccasin;
+            this.dayButton35.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dayButton35.FlatAppearance.BorderSize = 0;
+            this.dayButton35.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.dayButton35.Font = new System.Drawing.Font("等线", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.dayButton35.Location = new System.Drawing.Point(386, 237);
+            this.dayButton35.Name = "dayButton35";
+            this.dayButton35.Size = new System.Drawing.Size(46, 30);
+            this.dayButton35.TabIndex = 40;
+            this.dayButton35.Text = "button41";
+            this.dayButton35.UseVisualStyleBackColor = false;
+            // 
+            // dayButton21
+            // 
+            this.dayButton21.BackColor = System.Drawing.Color.Moccasin;
+            this.dayButton21.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dayButton21.FlatAppearance.BorderSize = 0;
+            this.dayButton21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.dayButton21.Font = new System.Drawing.Font("等线", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.dayButton21.Location = new System.Drawing.Point(386, 145);
+            this.dayButton21.Name = "dayButton21";
+            this.dayButton21.Size = new System.Drawing.Size(46, 30);
+            this.dayButton21.TabIndex = 20;
+            this.dayButton21.Text = "button21";
+            this.dayButton21.UseVisualStyleBackColor = false;
+            // 
             // dayButton28
             // 
             this.dayButton28.BackColor = System.Drawing.Color.Moccasin;
@@ -400,9 +415,9 @@
             this.dayButton28.FlatAppearance.BorderSize = 0;
             this.dayButton28.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.dayButton28.Font = new System.Drawing.Font("等线", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.dayButton28.Location = new System.Drawing.Point(391, 191);
+            this.dayButton28.Location = new System.Drawing.Point(386, 191);
             this.dayButton28.Name = "dayButton28";
-            this.dayButton28.Size = new System.Drawing.Size(47, 30);
+            this.dayButton28.Size = new System.Drawing.Size(46, 30);
             this.dayButton28.TabIndex = 28;
             this.dayButton28.Text = "button29";
             this.dayButton28.UseVisualStyleBackColor = false;
@@ -414,9 +429,9 @@
             this.dayButton27.FlatAppearance.BorderSize = 0;
             this.dayButton27.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.dayButton27.Font = new System.Drawing.Font("等线", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.dayButton27.Location = new System.Drawing.Point(328, 191);
+            this.dayButton27.Location = new System.Drawing.Point(324, 191);
             this.dayButton27.Name = "dayButton27";
-            this.dayButton27.Size = new System.Drawing.Size(47, 30);
+            this.dayButton27.Size = new System.Drawing.Size(46, 30);
             this.dayButton27.TabIndex = 27;
             this.dayButton27.Text = "button28";
             this.dayButton27.UseVisualStyleBackColor = false;
@@ -428,9 +443,9 @@
             this.dayButton26.FlatAppearance.BorderSize = 0;
             this.dayButton26.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.dayButton26.Font = new System.Drawing.Font("等线", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.dayButton26.Location = new System.Drawing.Point(265, 191);
+            this.dayButton26.Location = new System.Drawing.Point(262, 191);
             this.dayButton26.Name = "dayButton26";
-            this.dayButton26.Size = new System.Drawing.Size(47, 30);
+            this.dayButton26.Size = new System.Drawing.Size(46, 30);
             this.dayButton26.TabIndex = 26;
             this.dayButton26.Text = "button27";
             this.dayButton26.UseVisualStyleBackColor = false;
@@ -442,9 +457,9 @@
             this.dayButton25.FlatAppearance.BorderSize = 0;
             this.dayButton25.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.dayButton25.Font = new System.Drawing.Font("等线", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.dayButton25.Location = new System.Drawing.Point(202, 191);
+            this.dayButton25.Location = new System.Drawing.Point(200, 191);
             this.dayButton25.Name = "dayButton25";
-            this.dayButton25.Size = new System.Drawing.Size(47, 30);
+            this.dayButton25.Size = new System.Drawing.Size(46, 30);
             this.dayButton25.TabIndex = 25;
             this.dayButton25.Text = "button26";
             this.dayButton25.UseVisualStyleBackColor = false;
@@ -456,9 +471,9 @@
             this.dayButton24.FlatAppearance.BorderSize = 0;
             this.dayButton24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.dayButton24.Font = new System.Drawing.Font("等线", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.dayButton24.Location = new System.Drawing.Point(139, 191);
+            this.dayButton24.Location = new System.Drawing.Point(138, 191);
             this.dayButton24.Name = "dayButton24";
-            this.dayButton24.Size = new System.Drawing.Size(47, 30);
+            this.dayButton24.Size = new System.Drawing.Size(46, 30);
             this.dayButton24.TabIndex = 24;
             this.dayButton24.Text = "button25";
             this.dayButton24.UseVisualStyleBackColor = false;
@@ -472,7 +487,7 @@
             this.dayButton23.Font = new System.Drawing.Font("等线", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.dayButton23.Location = new System.Drawing.Point(76, 191);
             this.dayButton23.Name = "dayButton23";
-            this.dayButton23.Size = new System.Drawing.Size(47, 30);
+            this.dayButton23.Size = new System.Drawing.Size(46, 30);
             this.dayButton23.TabIndex = 22;
             this.dayButton23.Text = "button23";
             this.dayButton23.UseVisualStyleBackColor = false;
@@ -491,90 +506,6 @@
             this.dayButton22.Text = "button22";
             this.dayButton22.UseVisualStyleBackColor = false;
             // 
-            // dayButton21
-            // 
-            this.dayButton21.BackColor = System.Drawing.Color.Moccasin;
-            this.dayButton21.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dayButton21.FlatAppearance.BorderSize = 0;
-            this.dayButton21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.dayButton21.Font = new System.Drawing.Font("等线", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.dayButton21.Location = new System.Drawing.Point(391, 145);
-            this.dayButton21.Name = "dayButton21";
-            this.dayButton21.Size = new System.Drawing.Size(47, 30);
-            this.dayButton21.TabIndex = 20;
-            this.dayButton21.Text = "button21";
-            this.dayButton21.UseVisualStyleBackColor = false;
-            // 
-            // dayButton20
-            // 
-            this.dayButton20.BackColor = System.Drawing.Color.Moccasin;
-            this.dayButton20.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dayButton20.FlatAppearance.BorderSize = 0;
-            this.dayButton20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.dayButton20.Font = new System.Drawing.Font("等线", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.dayButton20.Location = new System.Drawing.Point(328, 145);
-            this.dayButton20.Name = "dayButton20";
-            this.dayButton20.Size = new System.Drawing.Size(47, 30);
-            this.dayButton20.TabIndex = 19;
-            this.dayButton20.Text = "button20";
-            this.dayButton20.UseVisualStyleBackColor = false;
-            // 
-            // dayButton19
-            // 
-            this.dayButton19.BackColor = System.Drawing.Color.Moccasin;
-            this.dayButton19.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dayButton19.FlatAppearance.BorderSize = 0;
-            this.dayButton19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.dayButton19.Font = new System.Drawing.Font("等线", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.dayButton19.Location = new System.Drawing.Point(265, 145);
-            this.dayButton19.Name = "dayButton19";
-            this.dayButton19.Size = new System.Drawing.Size(47, 30);
-            this.dayButton19.TabIndex = 18;
-            this.dayButton19.Text = "button19";
-            this.dayButton19.UseVisualStyleBackColor = false;
-            // 
-            // dayButton18
-            // 
-            this.dayButton18.BackColor = System.Drawing.Color.Moccasin;
-            this.dayButton18.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dayButton18.FlatAppearance.BorderSize = 0;
-            this.dayButton18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.dayButton18.Font = new System.Drawing.Font("等线", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.dayButton18.Location = new System.Drawing.Point(202, 145);
-            this.dayButton18.Name = "dayButton18";
-            this.dayButton18.Size = new System.Drawing.Size(47, 30);
-            this.dayButton18.TabIndex = 17;
-            this.dayButton18.Text = "button18";
-            this.dayButton18.UseVisualStyleBackColor = false;
-            // 
-            // dayButton17
-            // 
-            this.dayButton17.BackColor = System.Drawing.Color.Moccasin;
-            this.dayButton17.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dayButton17.FlatAppearance.BorderSize = 0;
-            this.dayButton17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.dayButton17.Font = new System.Drawing.Font("等线", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.dayButton17.Location = new System.Drawing.Point(139, 145);
-            this.dayButton17.Name = "dayButton17";
-            this.dayButton17.Size = new System.Drawing.Size(47, 30);
-            this.dayButton17.TabIndex = 16;
-            this.dayButton17.Text = "button17";
-            this.dayButton17.UseVisualStyleBackColor = false;
-            // 
-            // dayButton16
-            // 
-            this.dayButton16.BackColor = System.Drawing.Color.Moccasin;
-            this.dayButton16.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dayButton16.FlatAppearance.BorderSize = 0;
-            this.dayButton16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.dayButton16.Font = new System.Drawing.Font("等线", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.dayButton16.Location = new System.Drawing.Point(76, 145);
-            this.dayButton16.Name = "dayButton16";
-            this.dayButton16.Size = new System.Drawing.Size(47, 30);
-            this.dayButton16.TabIndex = 15;
-            this.dayButton16.Text = "button16";
-            this.dayButton16.UseVisualStyleBackColor = false;
-            // 
             // dayButton15
             // 
             this.dayButton15.BackColor = System.Drawing.Color.Moccasin;
@@ -589,6 +520,76 @@
             this.dayButton15.Text = "button15";
             this.dayButton15.UseVisualStyleBackColor = false;
             // 
+            // dayButton16
+            // 
+            this.dayButton16.BackColor = System.Drawing.Color.Moccasin;
+            this.dayButton16.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dayButton16.FlatAppearance.BorderSize = 0;
+            this.dayButton16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.dayButton16.Font = new System.Drawing.Font("等线", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.dayButton16.Location = new System.Drawing.Point(76, 145);
+            this.dayButton16.Name = "dayButton16";
+            this.dayButton16.Size = new System.Drawing.Size(46, 30);
+            this.dayButton16.TabIndex = 15;
+            this.dayButton16.Text = "button16";
+            this.dayButton16.UseVisualStyleBackColor = false;
+            // 
+            // dayButton17
+            // 
+            this.dayButton17.BackColor = System.Drawing.Color.Moccasin;
+            this.dayButton17.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dayButton17.FlatAppearance.BorderSize = 0;
+            this.dayButton17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.dayButton17.Font = new System.Drawing.Font("等线", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.dayButton17.Location = new System.Drawing.Point(138, 145);
+            this.dayButton17.Name = "dayButton17";
+            this.dayButton17.Size = new System.Drawing.Size(46, 30);
+            this.dayButton17.TabIndex = 16;
+            this.dayButton17.Text = "button17";
+            this.dayButton17.UseVisualStyleBackColor = false;
+            // 
+            // dayButton18
+            // 
+            this.dayButton18.BackColor = System.Drawing.Color.Moccasin;
+            this.dayButton18.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dayButton18.FlatAppearance.BorderSize = 0;
+            this.dayButton18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.dayButton18.Font = new System.Drawing.Font("等线", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.dayButton18.Location = new System.Drawing.Point(200, 145);
+            this.dayButton18.Name = "dayButton18";
+            this.dayButton18.Size = new System.Drawing.Size(46, 30);
+            this.dayButton18.TabIndex = 17;
+            this.dayButton18.Text = "button18";
+            this.dayButton18.UseVisualStyleBackColor = false;
+            // 
+            // dayButton19
+            // 
+            this.dayButton19.BackColor = System.Drawing.Color.Moccasin;
+            this.dayButton19.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dayButton19.FlatAppearance.BorderSize = 0;
+            this.dayButton19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.dayButton19.Font = new System.Drawing.Font("等线", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.dayButton19.Location = new System.Drawing.Point(262, 145);
+            this.dayButton19.Name = "dayButton19";
+            this.dayButton19.Size = new System.Drawing.Size(46, 30);
+            this.dayButton19.TabIndex = 18;
+            this.dayButton19.Text = "button19";
+            this.dayButton19.UseVisualStyleBackColor = false;
+            // 
+            // dayButton20
+            // 
+            this.dayButton20.BackColor = System.Drawing.Color.Moccasin;
+            this.dayButton20.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dayButton20.FlatAppearance.BorderSize = 0;
+            this.dayButton20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.dayButton20.Font = new System.Drawing.Font("等线", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.dayButton20.Location = new System.Drawing.Point(324, 145);
+            this.dayButton20.Name = "dayButton20";
+            this.dayButton20.Size = new System.Drawing.Size(46, 30);
+            this.dayButton20.TabIndex = 19;
+            this.dayButton20.Text = "button20";
+            this.dayButton20.UseVisualStyleBackColor = false;
+            // 
             // dayButton14
             // 
             this.dayButton14.BackColor = System.Drawing.Color.Moccasin;
@@ -596,12 +597,26 @@
             this.dayButton14.FlatAppearance.BorderSize = 0;
             this.dayButton14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.dayButton14.Font = new System.Drawing.Font("等线", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.dayButton14.Location = new System.Drawing.Point(391, 99);
+            this.dayButton14.Location = new System.Drawing.Point(386, 99);
             this.dayButton14.Name = "dayButton14";
-            this.dayButton14.Size = new System.Drawing.Size(47, 30);
+            this.dayButton14.Size = new System.Drawing.Size(46, 30);
             this.dayButton14.TabIndex = 13;
             this.dayButton14.Text = "button14";
             this.dayButton14.UseVisualStyleBackColor = false;
+            // 
+            // dayButton7
+            // 
+            this.dayButton7.BackColor = System.Drawing.Color.Moccasin;
+            this.dayButton7.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dayButton7.FlatAppearance.BorderSize = 0;
+            this.dayButton7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.dayButton7.Font = new System.Drawing.Font("等线", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.dayButton7.Location = new System.Drawing.Point(386, 53);
+            this.dayButton7.Name = "dayButton7";
+            this.dayButton7.Size = new System.Drawing.Size(46, 30);
+            this.dayButton7.TabIndex = 6;
+            this.dayButton7.Text = "button7";
+            this.dayButton7.UseVisualStyleBackColor = false;
             // 
             // dayButton13
             // 
@@ -610,9 +625,9 @@
             this.dayButton13.FlatAppearance.BorderSize = 0;
             this.dayButton13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.dayButton13.Font = new System.Drawing.Font("等线", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.dayButton13.Location = new System.Drawing.Point(328, 99);
+            this.dayButton13.Location = new System.Drawing.Point(324, 99);
             this.dayButton13.Name = "dayButton13";
-            this.dayButton13.Size = new System.Drawing.Size(47, 30);
+            this.dayButton13.Size = new System.Drawing.Size(46, 30);
             this.dayButton13.TabIndex = 12;
             this.dayButton13.Text = "button13";
             this.dayButton13.UseVisualStyleBackColor = false;
@@ -624,9 +639,9 @@
             this.dayButton12.FlatAppearance.BorderSize = 0;
             this.dayButton12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.dayButton12.Font = new System.Drawing.Font("等线", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.dayButton12.Location = new System.Drawing.Point(265, 99);
+            this.dayButton12.Location = new System.Drawing.Point(262, 99);
             this.dayButton12.Name = "dayButton12";
-            this.dayButton12.Size = new System.Drawing.Size(47, 30);
+            this.dayButton12.Size = new System.Drawing.Size(46, 30);
             this.dayButton12.TabIndex = 11;
             this.dayButton12.Text = "button12";
             this.dayButton12.UseVisualStyleBackColor = false;
@@ -638,26 +653,12 @@
             this.dayButton11.FlatAppearance.BorderSize = 0;
             this.dayButton11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.dayButton11.Font = new System.Drawing.Font("等线", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.dayButton11.Location = new System.Drawing.Point(202, 99);
+            this.dayButton11.Location = new System.Drawing.Point(200, 99);
             this.dayButton11.Name = "dayButton11";
-            this.dayButton11.Size = new System.Drawing.Size(47, 30);
+            this.dayButton11.Size = new System.Drawing.Size(46, 30);
             this.dayButton11.TabIndex = 10;
             this.dayButton11.Text = "button11";
             this.dayButton11.UseVisualStyleBackColor = false;
-            // 
-            // dayButton10
-            // 
-            this.dayButton10.BackColor = System.Drawing.Color.Moccasin;
-            this.dayButton10.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dayButton10.FlatAppearance.BorderSize = 0;
-            this.dayButton10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.dayButton10.Font = new System.Drawing.Font("等线", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.dayButton10.Location = new System.Drawing.Point(139, 99);
-            this.dayButton10.Name = "dayButton10";
-            this.dayButton10.Size = new System.Drawing.Size(47, 30);
-            this.dayButton10.TabIndex = 9;
-            this.dayButton10.Text = "button10";
-            this.dayButton10.UseVisualStyleBackColor = false;
             // 
             // dayButton9
             // 
@@ -668,10 +669,24 @@
             this.dayButton9.Font = new System.Drawing.Font("等线", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.dayButton9.Location = new System.Drawing.Point(76, 99);
             this.dayButton9.Name = "dayButton9";
-            this.dayButton9.Size = new System.Drawing.Size(47, 30);
+            this.dayButton9.Size = new System.Drawing.Size(46, 30);
             this.dayButton9.TabIndex = 8;
             this.dayButton9.Text = "button9";
             this.dayButton9.UseVisualStyleBackColor = false;
+            // 
+            // dayButton10
+            // 
+            this.dayButton10.BackColor = System.Drawing.Color.Moccasin;
+            this.dayButton10.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dayButton10.FlatAppearance.BorderSize = 0;
+            this.dayButton10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.dayButton10.Font = new System.Drawing.Font("等线", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.dayButton10.Location = new System.Drawing.Point(138, 99);
+            this.dayButton10.Name = "dayButton10";
+            this.dayButton10.Size = new System.Drawing.Size(46, 30);
+            this.dayButton10.TabIndex = 9;
+            this.dayButton10.Text = "button10";
+            this.dayButton10.UseVisualStyleBackColor = false;
             // 
             // dayButton8
             // 
@@ -687,90 +702,6 @@
             this.dayButton8.Text = "button8";
             this.dayButton8.UseVisualStyleBackColor = false;
             // 
-            // dayButton7
-            // 
-            this.dayButton7.BackColor = System.Drawing.Color.Moccasin;
-            this.dayButton7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dayButton7.FlatAppearance.BorderSize = 0;
-            this.dayButton7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.dayButton7.Font = new System.Drawing.Font("等线", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.dayButton7.Location = new System.Drawing.Point(391, 53);
-            this.dayButton7.Name = "dayButton7";
-            this.dayButton7.Size = new System.Drawing.Size(47, 30);
-            this.dayButton7.TabIndex = 6;
-            this.dayButton7.Text = "button7";
-            this.dayButton7.UseVisualStyleBackColor = false;
-            // 
-            // dayButton6
-            // 
-            this.dayButton6.BackColor = System.Drawing.Color.Moccasin;
-            this.dayButton6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dayButton6.FlatAppearance.BorderSize = 0;
-            this.dayButton6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.dayButton6.Font = new System.Drawing.Font("等线", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.dayButton6.Location = new System.Drawing.Point(328, 53);
-            this.dayButton6.Name = "dayButton6";
-            this.dayButton6.Size = new System.Drawing.Size(47, 30);
-            this.dayButton6.TabIndex = 5;
-            this.dayButton6.Text = "button6";
-            this.dayButton6.UseVisualStyleBackColor = false;
-            // 
-            // dayButton5
-            // 
-            this.dayButton5.BackColor = System.Drawing.Color.Moccasin;
-            this.dayButton5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dayButton5.FlatAppearance.BorderSize = 0;
-            this.dayButton5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.dayButton5.Font = new System.Drawing.Font("等线", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.dayButton5.Location = new System.Drawing.Point(265, 53);
-            this.dayButton5.Name = "dayButton5";
-            this.dayButton5.Size = new System.Drawing.Size(47, 30);
-            this.dayButton5.TabIndex = 4;
-            this.dayButton5.Text = "button5";
-            this.dayButton5.UseVisualStyleBackColor = false;
-            // 
-            // dayButton4
-            // 
-            this.dayButton4.BackColor = System.Drawing.Color.Moccasin;
-            this.dayButton4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dayButton4.FlatAppearance.BorderSize = 0;
-            this.dayButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.dayButton4.Font = new System.Drawing.Font("等线", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.dayButton4.Location = new System.Drawing.Point(202, 53);
-            this.dayButton4.Name = "dayButton4";
-            this.dayButton4.Size = new System.Drawing.Size(47, 30);
-            this.dayButton4.TabIndex = 3;
-            this.dayButton4.Text = "button4";
-            this.dayButton4.UseVisualStyleBackColor = false;
-            // 
-            // dayButton3
-            // 
-            this.dayButton3.BackColor = System.Drawing.Color.Moccasin;
-            this.dayButton3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dayButton3.FlatAppearance.BorderSize = 0;
-            this.dayButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.dayButton3.Font = new System.Drawing.Font("等线", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.dayButton3.Location = new System.Drawing.Point(139, 53);
-            this.dayButton3.Name = "dayButton3";
-            this.dayButton3.Size = new System.Drawing.Size(47, 30);
-            this.dayButton3.TabIndex = 2;
-            this.dayButton3.Text = "button3";
-            this.dayButton3.UseVisualStyleBackColor = false;
-            // 
-            // dayButton2
-            // 
-            this.dayButton2.BackColor = System.Drawing.Color.Moccasin;
-            this.dayButton2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dayButton2.FlatAppearance.BorderSize = 0;
-            this.dayButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.dayButton2.Font = new System.Drawing.Font("等线", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.dayButton2.Location = new System.Drawing.Point(76, 53);
-            this.dayButton2.Name = "dayButton2";
-            this.dayButton2.Size = new System.Drawing.Size(47, 30);
-            this.dayButton2.TabIndex = 1;
-            this.dayButton2.Text = "button2";
-            this.dayButton2.UseVisualStyleBackColor = false;
-            // 
             // dayButton1
             // 
             this.dayButton1.BackColor = System.Drawing.Color.Moccasin;
@@ -785,33 +716,75 @@
             this.dayButton1.Text = "button1";
             this.dayButton1.UseVisualStyleBackColor = false;
             // 
-            // tableLayoutPanel1
+            // dayButton2
             // 
-            this.tableLayoutPanel1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.tableLayoutPanel1.ColumnCount = 1;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel2, 0, 1);
-            this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel3, 0, 0);
-            this.tableLayoutPanel1.Controls.Add(this.panel1, 0, 2);
-            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 3;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 100F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 70F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 30F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(480, 584);
-            this.tableLayoutPanel1.TabIndex = 0;
+            this.dayButton2.BackColor = System.Drawing.Color.Moccasin;
+            this.dayButton2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dayButton2.FlatAppearance.BorderSize = 0;
+            this.dayButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.dayButton2.Font = new System.Drawing.Font("等线", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.dayButton2.Location = new System.Drawing.Point(76, 53);
+            this.dayButton2.Name = "dayButton2";
+            this.dayButton2.Size = new System.Drawing.Size(46, 30);
+            this.dayButton2.TabIndex = 1;
+            this.dayButton2.Text = "button2";
+            this.dayButton2.UseVisualStyleBackColor = false;
             // 
-            // yearComboBox
+            // dayButton3
             // 
-            this.yearComboBox.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.yearComboBox.FormattingEnabled = true;
-            this.yearComboBox.Location = new System.Drawing.Point(58, 17);
-            this.yearComboBox.Name = "yearComboBox";
-            this.yearComboBox.Size = new System.Drawing.Size(78, 23);
-            this.yearComboBox.TabIndex = 5;
-            this.yearComboBox.SelectedIndexChanged += new System.EventHandler(this.yearComboBox_SelectedIndexChanged_1);
+            this.dayButton3.BackColor = System.Drawing.Color.Moccasin;
+            this.dayButton3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dayButton3.FlatAppearance.BorderSize = 0;
+            this.dayButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.dayButton3.Font = new System.Drawing.Font("等线", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.dayButton3.Location = new System.Drawing.Point(138, 53);
+            this.dayButton3.Name = "dayButton3";
+            this.dayButton3.Size = new System.Drawing.Size(46, 30);
+            this.dayButton3.TabIndex = 2;
+            this.dayButton3.Text = "button3";
+            this.dayButton3.UseVisualStyleBackColor = false;
+            // 
+            // dayButton4
+            // 
+            this.dayButton4.BackColor = System.Drawing.Color.Moccasin;
+            this.dayButton4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dayButton4.FlatAppearance.BorderSize = 0;
+            this.dayButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.dayButton4.Font = new System.Drawing.Font("等线", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.dayButton4.Location = new System.Drawing.Point(200, 53);
+            this.dayButton4.Name = "dayButton4";
+            this.dayButton4.Size = new System.Drawing.Size(46, 30);
+            this.dayButton4.TabIndex = 3;
+            this.dayButton4.Text = "button4";
+            this.dayButton4.UseVisualStyleBackColor = false;
+            // 
+            // dayButton5
+            // 
+            this.dayButton5.BackColor = System.Drawing.Color.Moccasin;
+            this.dayButton5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dayButton5.FlatAppearance.BorderSize = 0;
+            this.dayButton5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.dayButton5.Font = new System.Drawing.Font("等线", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.dayButton5.Location = new System.Drawing.Point(262, 53);
+            this.dayButton5.Name = "dayButton5";
+            this.dayButton5.Size = new System.Drawing.Size(46, 30);
+            this.dayButton5.TabIndex = 4;
+            this.dayButton5.Text = "button5";
+            this.dayButton5.UseVisualStyleBackColor = false;
+            // 
+            // dayButton6
+            // 
+            this.dayButton6.BackColor = System.Drawing.Color.Moccasin;
+            this.dayButton6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dayButton6.FlatAppearance.BorderSize = 0;
+            this.dayButton6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.dayButton6.Font = new System.Drawing.Font("等线", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.dayButton6.Location = new System.Drawing.Point(324, 53);
+            this.dayButton6.Name = "dayButton6";
+            this.dayButton6.Size = new System.Drawing.Size(46, 30);
+            this.dayButton6.TabIndex = 5;
+            this.dayButton6.Text = "button6";
+            this.dayButton6.UseVisualStyleBackColor = false;
             // 
             // label1
             // 
@@ -832,7 +805,7 @@
             this.label2.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label2.Location = new System.Drawing.Point(76, 10);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(47, 30);
+            this.label2.Size = new System.Drawing.Size(46, 30);
             this.label2.TabIndex = 44;
             this.label2.Text = "Tue";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -842,9 +815,9 @@
             this.label3.AutoSize = true;
             this.label3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label3.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label3.Location = new System.Drawing.Point(139, 10);
+            this.label3.Location = new System.Drawing.Point(138, 10);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(47, 30);
+            this.label3.Size = new System.Drawing.Size(46, 30);
             this.label3.TabIndex = 45;
             this.label3.Text = "Wed";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -854,9 +827,9 @@
             this.label4.AutoSize = true;
             this.label4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label4.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label4.Location = new System.Drawing.Point(202, 10);
+            this.label4.Location = new System.Drawing.Point(200, 10);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(47, 30);
+            this.label4.Size = new System.Drawing.Size(46, 30);
             this.label4.TabIndex = 46;
             this.label4.Text = "Thu";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -866,9 +839,9 @@
             this.label5.AutoSize = true;
             this.label5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label5.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label5.Location = new System.Drawing.Point(265, 10);
+            this.label5.Location = new System.Drawing.Point(262, 10);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(47, 30);
+            this.label5.Size = new System.Drawing.Size(46, 30);
             this.label5.TabIndex = 47;
             this.label5.Text = "Fri";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -878,9 +851,9 @@
             this.label6.AutoSize = true;
             this.label6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label6.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label6.Location = new System.Drawing.Point(328, 10);
+            this.label6.Location = new System.Drawing.Point(324, 10);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(47, 30);
+            this.label6.Size = new System.Drawing.Size(46, 30);
             this.label6.TabIndex = 48;
             this.label6.Text = "Sat";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -890,17 +863,35 @@
             this.label7.AutoSize = true;
             this.label7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label7.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label7.Location = new System.Drawing.Point(391, 10);
+            this.label7.Location = new System.Drawing.Point(386, 10);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(47, 30);
+            this.label7.Size = new System.Drawing.Size(46, 30);
             this.label7.TabIndex = 49;
             this.label7.Text = "Sun";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // tableLayoutPanel1
+            // 
+            this.tableLayoutPanel1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.tableLayoutPanel1.ColumnCount = 1;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel2, 0, 1);
+            this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel3, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.panel1, 0, 2);
+            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 3;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 100F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 70F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 30F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(480, 584);
+            this.tableLayoutPanel1.TabIndex = 0;
+            // 
             // tableLayoutPanel3
             // 
             this.tableLayoutPanel3.ColumnCount = 1;
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 474F));
             this.tableLayoutPanel3.Controls.Add(this.tableLayoutPanel4, 0, 1);
             this.tableLayoutPanel3.Controls.Add(this.toolStrip1, 0, 0);
             this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -944,22 +935,6 @@
             this.tableLayoutPanel4.Size = new System.Drawing.Size(455, 58);
             this.tableLayoutPanel4.TabIndex = 0;
             // 
-            // toolStrip1
-            // 
-            this.toolStrip1.BackColor = System.Drawing.Color.Gainsboro;
-            this.toolStrip1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.toolStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.CloseButton,
-            this.MinButton});
-            this.toolStrip1.Location = new System.Drawing.Point(0, 0);
-            this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.toolStrip1.Size = new System.Drawing.Size(474, 30);
-            this.toolStrip1.TabIndex = 1;
-            this.toolStrip1.Text = "toolStrip1";
-            this.toolStrip1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.toolStrip1_MouseDown);
-            // 
             // LastMonthbutton
             // 
             this.LastMonthbutton.BackColor = System.Drawing.Color.PapayaWhip;
@@ -973,6 +948,16 @@
             this.LastMonthbutton.UseVisualStyleBackColor = false;
             this.LastMonthbutton.Click += new System.EventHandler(this.LastMonthbutton_Click);
             // 
+            // yearComboBox
+            // 
+            this.yearComboBox.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.yearComboBox.FormattingEnabled = true;
+            this.yearComboBox.Location = new System.Drawing.Point(58, 17);
+            this.yearComboBox.Name = "yearComboBox";
+            this.yearComboBox.Size = new System.Drawing.Size(78, 23);
+            this.yearComboBox.TabIndex = 5;
+            this.yearComboBox.SelectedIndexChanged += new System.EventHandler(this.yearComboBox_SelectedIndexChanged_1);
+            // 
             // monthComboBox
             // 
             this.monthComboBox.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -982,6 +967,19 @@
             this.monthComboBox.Size = new System.Drawing.Size(78, 23);
             this.monthComboBox.TabIndex = 7;
             this.monthComboBox.SelectedIndexChanged += new System.EventHandler(this.monthComboBox_SelectedIndexChanged_1);
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.BlanchedAlmond;
+            this.button3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button3.Font = new System.Drawing.Font("幼圆", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button3.Location = new System.Drawing.Point(336, 3);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(106, 52);
+            this.button3.TabIndex = 9;
+            this.button3.Text = "详细预测";
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // NextMonthbutton
             // 
@@ -996,38 +994,6 @@
             this.NextMonthbutton.Text = "▶";
             this.NextMonthbutton.UseVisualStyleBackColor = false;
             this.NextMonthbutton.Click += new System.EventHandler(this.NextMonthbutton_Click);
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.BlanchedAlmond;
-            this.button3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button3.Font = new System.Drawing.Font("幼圆", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button3.Location = new System.Drawing.Point(336, 3);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(106, 52);
-            this.button3.TabIndex = 9;
-            this.button3.Text = "详细预测";
-            this.button3.UseVisualStyleBackColor = false;
-            // 
-            // CloseButton
-            // 
-            this.CloseButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.CloseButton.Image = ((System.Drawing.Image)(resources.GetObject("CloseButton.Image")));
-            this.CloseButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.CloseButton.Name = "CloseButton";
-            this.CloseButton.Size = new System.Drawing.Size(29, 27);
-            this.CloseButton.Text = "toolStripButton1";
-            this.CloseButton.Click += new System.EventHandler(this.CloseButton_Click);
-            // 
-            // MinButton
-            // 
-            this.MinButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.MinButton.Image = ((System.Drawing.Image)(resources.GetObject("MinButton.Image")));
-            this.MinButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.MinButton.Name = "MinButton";
-            this.MinButton.Size = new System.Drawing.Size(29, 27);
-            this.MinButton.Text = "toolStripButton2";
-            this.MinButton.Click += new System.EventHandler(this.MinButton_Click);
             // 
             // label8
             // 
@@ -1048,6 +1014,42 @@
             this.label9.Size = new System.Drawing.Size(19, 15);
             this.label9.TabIndex = 11;
             this.label9.Text = "月";
+            // 
+            // toolStrip1
+            // 
+            this.toolStrip1.BackColor = System.Drawing.Color.Gainsboro;
+            this.toolStrip1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.toolStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.CloseButton,
+            this.MinButton});
+            this.toolStrip1.Location = new System.Drawing.Point(0, 0);
+            this.toolStrip1.Name = "toolStrip1";
+            this.toolStrip1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.toolStrip1.Size = new System.Drawing.Size(474, 30);
+            this.toolStrip1.TabIndex = 1;
+            this.toolStrip1.Text = "toolStrip1";
+            this.toolStrip1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.toolStrip1_MouseDown);
+            // 
+            // CloseButton
+            // 
+            this.CloseButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.CloseButton.Image = ((System.Drawing.Image)(resources.GetObject("CloseButton.Image")));
+            this.CloseButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.CloseButton.Name = "CloseButton";
+            this.CloseButton.Size = new System.Drawing.Size(29, 27);
+            this.CloseButton.Text = "关闭程序";
+            this.CloseButton.Click += new System.EventHandler(this.CloseButton_Click);
+            // 
+            // MinButton
+            // 
+            this.MinButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.MinButton.Image = ((System.Drawing.Image)(resources.GetObject("MinButton.Image")));
+            this.MinButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.MinButton.Name = "MinButton";
+            this.MinButton.Size = new System.Drawing.Size(29, 27);
+            this.MinButton.Text = "最小化";
+            this.MinButton.Click += new System.EventHandler(this.MinButton_Click);
             // 
             // panel1
             // 
@@ -1207,6 +1209,7 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel6;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label resultLabel;
+        private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog;
     }
 }
 

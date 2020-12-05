@@ -23,7 +23,9 @@ namespace PmCalendar
         public const int SC_MOVE = 0xF010;
         public const int HTCAPTION = 0x0002;
 
+        private Page2 sonPage;
 
+        private Service service;
 
         public bool[] isDayButtonVisit;
 
@@ -43,7 +45,7 @@ namespace PmCalendar
 
         public MainPage()
         {
-
+            String path = "F:\\school\\商务智能\\PM2.5\\北京PM2.5浓度回归数据\\train.csv";
             InitializeComponent();
             isDayButtonVisit = new bool[42];
             dayButton = new Button[42];
@@ -53,13 +55,15 @@ namespace PmCalendar
             year = DateTime.Now.Year.ToString();
             month = DateTime.Now.Month.ToString();
             day = DateTime.Now.Day.ToString();
+            service = new Service(path);
             LoadButton();
             initYearComboBox();
             initMonthComboBox();
             GenerateCalendar();
             AddButtonEvent();
             tagToday();
-            dayButton[41].Text = "12";
+            SetLevelMessage();
+            
 
             SetStyle(ControlStyles.UserPaint, true);
             SetStyle(ControlStyles.AllPaintingInWmPaint, true); // 禁止擦除背景.
@@ -185,8 +189,6 @@ namespace PmCalendar
             for (int i = 0; i < 42; i++)
             {
                 GetButton(i + 1).Click += new EventHandler(SetDate);
-                GetButton(i + 1).Click += new EventHandler(BtnUpdate);
-
             }
         }
 
@@ -198,6 +200,7 @@ namespace PmCalendar
             month = monthComboBox.Text;
             day = btn.Text;
             tagChoice(btn);
+            SetLevelMessage();
         }
 
 
@@ -233,11 +236,6 @@ namespace PmCalendar
             btn.FlatAppearance.BorderColor = Color.DeepSkyBlue;
         }
 
-        private void BtnUpdate(object sender, EventArgs e)
-        {
-
-        }
-
         private void toolStrip1_MouseDown(object sender, MouseEventArgs e)
         {
             ReleaseCapture();
@@ -266,6 +264,40 @@ namespace PmCalendar
             setMonth(month);
             GenerateCalendar();
             tagToday();
+        }
+
+        private void SetLevelMessage()
+        {
+            DateTime date = new DateTime(int.Parse(year), int.Parse(month), int.Parse(day));
+            PmData data = new PmData();
+            data.Pdate = date;
+            switch(service.GetPmLevelByDate(data)){
+                case 0:
+                    resultLabel.Text = "优秀";
+                    resultLabel.ForeColor = Color.Green;
+                    break;
+                case 1:
+                    resultLabel.Text = "良好";
+                    resultLabel.ForeColor = Color.LightGreen;
+                    break;
+                case 2:
+                    resultLabel.Text = "轻度污染";
+                    resultLabel.ForeColor = Color.Black;
+                    break;
+                case 3:
+                    resultLabel.Text = "中度污染";
+                    resultLabel.ForeColor = Color.MediumVioletRed;
+                    break;
+                case 4:
+                    resultLabel.Text = "重度污染";
+                    resultLabel.ForeColor = Color.Red;
+                    break;
+                case 5:
+                    resultLabel.Text = "严重污染";
+                    resultLabel.ForeColor = Color.DarkRed;
+                    break;
+            };
+
         }
 
         private void NextMonthbutton_Click(object sender, EventArgs e)
@@ -302,6 +334,12 @@ namespace PmCalendar
         {
             month = monthComboBox.Text;
             GenerateCalendar();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            sonPage = new Page2(service);
+            sonPage.Show();
         }
     }
 }

@@ -10,6 +10,8 @@ namespace PmService
     {
         public List<PmData> DataList { get; set; }
 
+        public List<PmData> TestList { get; set; }
+
         public double[] LevelFrequency { get; set; }
 
         public double[,] HourFrequency { get; set; }
@@ -45,6 +47,7 @@ namespace PmService
         public PmDataBase()
         {
             DataList = new List<PmData>();
+            TestList = new List<PmData>();
             LevelFrequency = new double[6];
             HourFrequency = new double[4, 6];
             DateFrequency = new double[366, 6];
@@ -58,6 +61,11 @@ namespace PmService
         public void AddData(PmData data)
         {
             DataList.Add(data);
+        }
+
+        public void AddTestData(PmData data)
+        {
+            TestList.Add(data);
         }
     }
 }

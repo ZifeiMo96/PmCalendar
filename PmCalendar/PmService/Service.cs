@@ -20,6 +20,9 @@ namespace PmService
         {
             dataBase = new PmDataBase();
         }
+
+
+
         public Service(String path)
         {
             dataBase = new PmDataBase();
@@ -78,6 +81,35 @@ namespace PmService
             {
                 Console.WriteLine(i);
             }
+        }
+        public bool LoadTestPmData(String path)
+        {
+            using (var fs = File.OpenRead(path))
+            {
+                using (var reader = new StreamReader(fs))
+                {
+                    var line = reader.ReadLine();
+                    while (!reader.EndOfStream)
+                    {
+                        line = reader.ReadLine();
+                        var values = line.Split(',');
+                        PmData data = new PmData();
+                        data.Pid = long.Parse(values[0]);
+                        data.Dewp = int.Parse(values[1]);
+                        data.Lws = double.Parse(values[2]);
+                        data.Pres = double.Parse(values[3]);
+                        data.Temp = double.Parse(values[4]);
+                        data.Cbwd = int.Parse(values[5]);
+                        var date = values[6].Split('/');
+                        data.Pdate = new DateTime(int.Parse(date[0]), int.Parse(date[1]), int.Parse(date[2]));
+                        data.Hour = int.Parse(values[7]);
+                        data.Pm = int.Parse(values[8]);
+                        data.level = int.Parse(values[9]);
+                        dataBase.AddTestData(data);
+                    }
+                }
+            }
+            return true;
         }
 
         public void TestDataLevel()
@@ -254,7 +286,6 @@ namespace PmService
                     levelFrequency[i] *= dataBase.HourFrequency[data.HourLevel, i] / dataBase.GetItemFrequency(dataBase.HourFrequency, data.HourLevel);
                 }
                 levelFrequency[i] *= dataBase.LevelFrequency[i];
-                Console.WriteLine(levelFrequency[i]);
             }
             return FrequencyMax(levelFrequency);
         }
@@ -284,12 +315,15 @@ namespace PmService
 
         public void TestGetPmLevelByDate()
         {
-            Console.WriteLine(GetPmLevelByDate(4));
+            Console.WriteLine(GetPmLevelByDate(dataBase.DataList[0]));
            
+            /*
             for (int i = 0; i < 365; i++)
             {
                 Console.WriteLine(GetPmLevelByDate(i));
             }
+            */
+
         }
 
         public void TestGetPmLevel()
@@ -326,6 +360,21 @@ namespace PmService
                 }
             }
             return n;
+        }
+
+        public void TestRight()
+        {
+            double count = 0;
+            double right = 0;
+            foreach(PmData i in dataBase.TestList)
+            {
+                count++;
+                if (System.Math.Abs(GetPmLevel(i)-i.level)<=1)
+                {
+                    right++;
+                }
+            }
+            Console.WriteLine(right / count);
         }
     }
 }
