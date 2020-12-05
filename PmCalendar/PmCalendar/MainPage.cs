@@ -341,5 +341,19 @@ namespace PmCalendar
             sonPage = new Page2(service);
             sonPage.Show();
         }
+
+        private void toolStripButton1_Click(object sender, EventArgs e)
+        {
+            if (openFileDialog.ShowDialog() == DialogResult.OK)
+            {
+                openFileDialog.Multiselect = true;
+                openFileDialog.Title = "请选择训练源文件";
+                //记录选中的目录  
+                String defaultPath = openFileDialog.FileName;
+                service.LoadPmData(defaultPath);
+                service.CalculateLevelFrequency();
+                service.CalculateItemFrequency();
+            }
+        }
     }
 }
