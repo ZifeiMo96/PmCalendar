@@ -6,7 +6,19 @@ namespace PmService
 {
     public class PmData
     {
-
+        public PmData()
+        {
+            Pid = initNumber;
+            Dewp = initNumber;
+            Lws = initNumber;
+            Pres = initNumber;
+            Temp = initNumber;
+            Cbwd = initNumber;
+            Pdate = new DateTime();
+            Hour = initNumber;
+            Pm = initNumber;
+            level = initNumber;
+        }
         /// <summary>
         /// 数据的ID
         /// </summary>
@@ -193,6 +205,8 @@ namespace PmService
             String str = "pid:"+Pid + " pm:" + Pm + " level:" + level + " Hour" + HourLevel;
             return str;
         }
+
+        private static int initNumber = -114514;
 
     }
 }
