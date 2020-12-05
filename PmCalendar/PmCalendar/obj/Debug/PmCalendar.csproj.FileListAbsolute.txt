@@ -11,3 +11,4 @@ W:\C#src\PmCalendarSrc\PmCalendar\PmCalendar\obj\Debug\PmCalendar.csproj.CoreCom
 W:\C#src\PmCalendarSrc\PmCalendar\PmCalendar\obj\Debug\PmCalendar.csproj.CopyComplete
 W:\C#src\PmCalendarSrc\PmCalendar\PmCalendar\obj\Debug\PmCalendar.exe
 W:\C#src\PmCalendarSrc\PmCalendar\PmCalendar\obj\Debug\PmCalendar.pdb
+W:\C#src\PmCalendarSrc\PmCalendar\PmCalendar\obj\Debug\PmCalendar.MainPage.resources
