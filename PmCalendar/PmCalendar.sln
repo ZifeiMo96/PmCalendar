@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PmCalendar", "PmCalendar\Pm
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PmService", "PmService\PmService.csproj", "{D58982DF-2434-4C3C-8DA5-276A4CB621BE}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "PmCalendarSetUp", "PmCalendarSetUp\PmCalendarSetUp.vdproj", "{AD0E9718-5C26-49AA-B6B9-A08845F636E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,8 @@ Global
 		{D58982DF-2434-4C3C-8DA5-276A4CB621BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D58982DF-2434-4C3C-8DA5-276A4CB621BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D58982DF-2434-4C3C-8DA5-276A4CB621BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD0E9718-5C26-49AA-B6B9-A08845F636E3}.Debug|Any CPU.ActiveCfg = Debug
+		{AD0E9718-5C26-49AA-B6B9-A08845F636E3}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

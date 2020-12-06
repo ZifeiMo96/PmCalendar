@@ -45,7 +45,7 @@ namespace PmCalendar
 
         public MainPage()
         {
-            String path = "../../../train.csv";
+            String path = "train.csv";
             InitializeComponent();
             isDayButtonVisit = new bool[42];
             dayButton = new Button[42];
